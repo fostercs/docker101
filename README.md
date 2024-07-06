@@ -1,13 +1,14 @@
 # Docker101
 
+## Download Image
 [Docker101 Image](https://hub.docker.com/r/fostercs/docker101)
 
 `docker pull fostercs/docker101`
 
-## Build via Compose
+## Build and Run App via Compose
 `docker compose up --build`
 
-## Login
+## Docker CLI Login
 `docker login`
 
 ## Build
