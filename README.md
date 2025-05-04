@@ -27,3 +27,5 @@ CMD ["python3", "map-filter-reduce.py"]
 ## Run the application
 CMD gunicorn 'app:app' --bind=0.0.0.0:8000
 # CMD ["python3", "map-filter-reduce.py"]
+
+## Discuss container [patterns](https://github.com/fostercs/docker101/blob/main/docs/patterns.md)
