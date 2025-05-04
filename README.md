@@ -1,7 +1,9 @@
 # Docker101
 
-**[Download](https://hub.docker.com/r/fostercs/docker101) Image**
+- **Build Image**
+- **Discuss container [patterns](https://github.com/fostercs/docker101/blob/main/docs/patterns.md)**
 
+## Pull Image
 `docker pull fostercs/docker101`
 
 ## Build and Run App via Compose
@@ -26,5 +28,3 @@ CMD ["python3", "map-filter-reduce.py"]
 ## Run the application
 CMD gunicorn 'app:app' --bind=0.0.0.0:8000
 # CMD ["python3", "map-filter-reduce.py"]
-
-- **Discuss container [patterns](https://github.com/fostercs/docker101/blob/main/docs/patterns.md)**
